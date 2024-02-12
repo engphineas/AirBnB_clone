@@ -1,10 +1,11 @@
 #!/usr/bin/python3
-"""State Module"""
+"""State class module."""
 from models.base_model import BaseModel
 
 
 class State(BaseModel):
     """
+    Represent a state.
     All attrbutes should be empty
     """
     name = ""

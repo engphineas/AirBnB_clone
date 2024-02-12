@@ -9,6 +9,7 @@ import models
 class FileStorage:
     """
         Serializes instances to JSON file and deserializes to JSON file.
+        representing a storage engine abstract.
     """
     __file_path = "file.json"
     __objects = {}
